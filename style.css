@@ -3813,6 +3813,18 @@ body,
 	margin-bottom: -5px;
 }
 
+.partners-logo {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 50%;
+	height: auto;
+}
+
+.partners-logo .clients {
+	max-width: 100%;
+}
+
 
 /* ============================================================== 
      # Team  
@@ -4233,6 +4245,7 @@ body,
 	font-weight: 600;
 	color: #1273eb;
 }
+
 .testimonials-area .row>.info {
 	padding-left: 50px;
 	border-left: 1px solid #c7c7c7;
@@ -4351,14 +4364,14 @@ body,
 }
 
 .skill-items .progress-box .progress .progress-bar::after {
-    position: absolute;
-    right: 13px;
-    top: -25px;
-    content: "\f106";
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 600;
-    color: var(--primary);
-    font-size: 20px;
+	position: absolute;
+	right: 13px;
+	top: -25px;
+	content: "\f106";
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 600;
+	color: var(--primary);
+	font-size: 20px;
 }
 
 /******************/
