@@ -288,7 +288,7 @@
             ],
             dots: false,
             autoplay: true,
-            autoplayTimeout: 2000,
+            autoplayTimeout: 3000,
             responsive: {
                 0: {
                     items: 1
@@ -313,7 +313,7 @@
             ],
             dots: false,
             autoplay: true,
-            autoplayTimeout: 2400,
+            autoplayTimeout: 3000,
             responsive: {
                 0: {
                     items: 1
@@ -324,7 +324,8 @@
                 1000: {
                     items: 3
                 }
-            }
+            },
+            rtl: true // Reversing the order
         });
 
 
