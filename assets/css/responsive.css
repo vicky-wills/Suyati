@@ -19,7 +19,7 @@
   body,
   .banner-area,
   .banner-area div {
-    height: auto;
+    height: 100vh;
   }
 
   .banner-area .content {
@@ -670,11 +670,26 @@
     padding-right: 12px;
   }
 
+  .footer-contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 36px;
+    padding: 0px 20px 120px;
+    width: 100%;
+  }
+  
+
 }
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+  .banner-hero-text h2 {
+    font-weight: 600;
+    font-size: 36px;
+  }
 
   .default-padding {
     padding-top: 50px;
@@ -751,7 +766,7 @@
   body,
   .banner-area,
   .banner-area div {
-    height: auto;
+    height: 100vh;
   }
 
   .banner-area .content,
@@ -1746,6 +1761,11 @@
 
 /* Custom layout. */
 @media only screen and (max-width: 600px) {
+
+  .header .logo a img {
+    width: 80% !important;
+  }
+  
   .about-content-area .thumb-box img:nth-child(2) {
     display: none;
   }
