@@ -679,7 +679,11 @@
     padding: 0px 20px 120px;
     width: 100%;
   }
-  
+
+  footer .footer-bottom .row p {
+    width: max-content;
+  }
+
 
 }
 
@@ -1765,7 +1769,7 @@
   .header .logo a img {
     width: 80% !important;
   }
-  
+
   .about-content-area .thumb-box img:nth-child(2) {
     display: none;
   }
@@ -1837,4 +1841,10 @@
     width: 70%;
   }
 
+}
+
+@media only screen and (min-width: 1200px) {
+  .blog-area .blog-items .info {
+    height: 303px;
+  }
 }
