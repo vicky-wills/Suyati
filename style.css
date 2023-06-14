@@ -3019,6 +3019,7 @@ body,
 /* ============================================================== 
      # Partner  
 =================================================================== */
+
 .partner-area .item-box {
 	padding: 120px 0;
 	padding-right: 50px;
@@ -3029,6 +3030,7 @@ body,
 .partner-area .item-box img {
 	width: auto;
 	margin: auto;
+	backdrop-filter: blur(5px);
 }
 
 .partner-area .item-box::after {
@@ -3464,6 +3466,10 @@ body,
 .testimonials-area .testimonial-items {
 	position: relative;
 	z-index: 1;
+}
+
+.testimonials-area .testimonial-items .row {
+	display: flex;
 }
 
 .testimonials-area .testimonial-items::after {
@@ -6034,6 +6040,63 @@ form.white-popup-block .link-bottom a:hover {
 	right: 0;
 	top: 0;
 	z-index: 9;
+}
+
+
+/* ============================================================== 
+     # contact card 
+=================================================================== */
+
+.contact-card-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+.contact-card-container h2,
+h4 {
+	margin: 0px;
+	color: #ffffff;
+}
+
+.contact-card-container .contact-card-title h4 {
+	text-align: center;
+}
+
+.contact-card-container h2 {
+	text-align: center;
+}
+
+.contact-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	background-color: var(--primary);
+	max-width: 1170px;
+	padding: 24px;
+	width: 100%;
+	flex: 0 1 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.contact-card-title {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.contact-card-title span {
+	width: 20px;
+	border: 1.5px solid #FFFFFF;
+}
+
+.contact-card a {
+	margin-top: 15px;
 }
 
 

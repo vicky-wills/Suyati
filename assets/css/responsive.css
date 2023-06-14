@@ -431,7 +431,7 @@
   }
 
   .expertise-area .expertise-content .item:last-child {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
   }
 
   .expertise-content h4 {
@@ -1710,6 +1710,10 @@
   .blog-area.single .post-pagi-area a:last-child {
     float: right;
   }
+
+  .contact-card {
+    max-width: 510px !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1717,6 +1721,16 @@
   /* global reset - start */
   .order-last {
     order: 0;
+  }
+
+  .testimonials-area .testimonial-items .col-lg-5.info {
+    padding: 0px !important;
+    margin: 0px 0px 50px !important;
+    order: 0;
+  }
+
+  .testimonials-area .testimonial-items .col-lg-7.testimonials-content {
+    order: 1;
   }
 }
 
@@ -1811,6 +1825,26 @@
     margin-top: 120px;
   }
 
+  .expertise-content:hover .expertise-item .item>h4 {
+    margin-bottom: 0px;
+  }
+
+  .expertise-content:hover .expertise-item .item {
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+  }
+
+  .expertise-content:hover .expertise-item .item:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  }
+
+  .expertise-content:hover .expertise-item .item {
+    border-right: none;
+  }
+
+  .contact-card {
+    max-width: 690px;
+  }
+
 }
 
 /* Custom Layout */
@@ -1823,6 +1857,26 @@
 
   .contact-area.extra-margin {
     margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1520px) {
+
+  .faq-area .faq-items .fixed-thumb {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .expertise-content h4 {
+    height: 120px;
+  }
+
+  .contact-card {
+    max-width: 930px;
   }
 
 }
