@@ -3226,6 +3226,7 @@ body,
 .team-area .item .info h4 {
 	font-weight: 600;
 	margin-bottom: 5px;
+	color: #232323;
 }
 
 .team-area .item .info span {
@@ -6120,7 +6121,7 @@ textarea {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
-	flex: 1 1 0;
+	flex: 1 0 0;
 	font-size: 14px;
 	font-weight: 500;
 	color: var(--white);
@@ -6207,10 +6208,17 @@ footer .container {
 	flex-direction: row;
 }
 
+footer .container.top {
+	display: flex;
+	flex-direction: row;
+	padding-top: 120px;
+	padding-bottom: 80px;
+}
+
 footer .container .footer-logo {
-	width: 40%;
-	padding-right: 24px;
-	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	width: 100%;
+	/* padding-right: 24px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .footer-btn {
@@ -6321,15 +6329,12 @@ footer .footer-logo p {
 	font-size: 32px;
 	font-weight: 600;
 	color: var(--secondary) !important;
-	line-height: 120%;
+	line-height: 150%;
 }
 
 footer .footer-logo span {
-	margin-top: 32px;
-	font-size: 32px;
 	font-weight: 800;
 	color: #ffffff !important;
-	line-height: 120%;
 }
 
 /* Footer Bottom */
@@ -6390,7 +6395,7 @@ footer .footer-bottom .row p {
 	justify-content: center;
 	margin: auto;
 	gap: 36px;
-	padding: 0px 20px 120px;
+	padding: 0px 20px 80px;
 	width: 100%;
 }
 
