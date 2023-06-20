@@ -72,6 +72,11 @@
     padding-top: 250px;
   }
 
+  .banner-hero-content h2 {
+    font-weight: 600;
+    font-size: 60px;
+  }
+
 
   /* Features */
 
@@ -1880,6 +1885,11 @@
 
   .faq-area .faq-items .fixed-thumb {
     display: none;
+  }
+
+  .banner-hero-content h2 {
+    font-weight: 600;
+    font-size: 70px;
   }
 
 }

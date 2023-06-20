@@ -1290,7 +1290,7 @@ body,
 .banner-area div {
 	height: 100vh;
 	position: relative;
-	background-position: center center;
+	background-position: right;
 	background-size: cover;
 }
 
@@ -1343,7 +1343,7 @@ body,
 	letter-spacing: 0.05em;
 	word-wrap: break-word;
 	color: #565656;
-	width: 600px;
+	width: 50%;
 }
 
 .banner-hero-content h2>span {
