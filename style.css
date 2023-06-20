@@ -6129,7 +6129,7 @@ textarea {
 	border-radius: 4px;
 	padding: 6px 12px;
 	background: rgba(43, 106, 231, 0.01);
-	border: 1px solid rgba(255, 255, 255, 0.38);
+	border: 2px solid rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(2.5px);
 	width: 100%;
 }
@@ -6147,11 +6147,11 @@ textarea {
 }
 
 .contact-card form .contact-body .contact-row input:focus {
-	border: 1px solid rgba(255, 255, 255, 1);
+	border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .contact-card form .contact-body .contact-row textarea:focus {
-	border: 1px solid rgba(255, 255, 255, 1);
+	border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .contact-card form .contact-body .contact-row.top input {
