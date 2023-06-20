@@ -1324,7 +1324,7 @@ body,
 	color: var(--white);
 }
 
-.banner-hero-content {
+.banner-hero-text {
 	position: absolute;
 	display: flex;
 	justify-content: flex-start;
@@ -1335,7 +1335,7 @@ body,
 	z-index: 10;
 }
 
-.banner-hero-content h2 {
+.banner-hero-text h2 {
 	text-align: left;
 	position: relative;
 	font-weight: 700;
@@ -1346,7 +1346,7 @@ body,
 	width: 50%;
 }
 
-.banner-hero-content h2>span {
+.banner-hero-text h2>span {
 	color: var(--primary);
 }
 
