@@ -695,6 +695,11 @@
     font-size: 36px;
   }
 
+  .banner-hero-content h2 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+
   .default-padding {
     padding-top: 50px;
     padding-bottom: 50px;
