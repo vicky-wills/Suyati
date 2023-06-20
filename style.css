@@ -1342,7 +1342,7 @@ body,
 	font-size: 92px;
 	letter-spacing: 0.05em;
 	word-wrap: break-word;
-	color: var(--white);
+	color: #565656;
 	width: 600px;
 }
 
