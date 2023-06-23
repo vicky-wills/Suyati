@@ -73,8 +73,7 @@
   }
 
   .banner-hero-text h2 {
-    font-weight: 600;
-    font-size: 60px;
+    font-size: 34px;
   }
 
 
@@ -762,9 +761,8 @@
     font-size: 36px;
   }
 
-  .banner-area.inc-video h2 {
-    font-size: 36px;
-    line-height: 1.2;
+  .banner-hero-text h2 {
+    font-size: 34px;
   }
 
   .banner-area.inc-video a.video-play-button span {
@@ -1758,6 +1756,27 @@
     width: 100%;
   }
 
+  body,
+  .banner-area,
+  .banner-area div {
+    background-position: calc(100%/4);
+  }
+
+  .banner-hero-text {
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30%;
+  }
+
+  .banner-hero-text h2 {
+    text-align: center;
+    width: 80%;
+  }
+
+  .banner-hero-text h2 {
+    font-size: 28px;
+  }
+
 }
 
 /* Custom layout. */
@@ -1819,7 +1838,7 @@
 
   .banner-hero-text h2 {
     font-weight: 600;
-    font-size: 70px;
+    font-size: 48px;
   }
 
 }
