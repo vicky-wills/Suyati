@@ -861,7 +861,6 @@ button:focus {
 	background: #1273eb;
 }
 
-
 .area-title {
 	font-size: 40px;
 	line-height: 1.2;
@@ -1300,32 +1299,64 @@ body,
 	height: auto;
 }
 
-.banner-hero-text h2>span {
-	color: var(--white);
-}
-
 .banner-hero-text {
 	position: absolute;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding-right: 20px;
 	width: 100%;
 	height: 100vh;
 	z-index: 10;
+	overflow: hidden;
 }
 
-.banner-hero-text h2 {
-	text-align: left;
+.banner-text {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+	width: 50%;
+	height: max-content !important;
+}
+
+.banner-hero-text .banner-text h2 {
 	font-weight: 700;
 	font-size: 56px;
 	word-wrap: break-word;
 	color: #ffffff;
-	width: 50%;
+	width: 100%;
+	margin: 0;
 }
 
-.banner-hero-text h2>span {
+.banner-text .banner-details {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	width: 100%;
+	height: max-content;
+}
+
+.banner-text .banner-details p {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #ffffff;
+	margin: 0;
+	padding: 10px 20px;
+	width: 100%;
+	border-radius: 4px;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
+	backdrop-filter: blur(2px);
+}
+
+.banner-text .banner-details p span {
+	display: block;
+}
+
+.banner-hero-text .banner-text h2>span {
 	color: var(--secondary);
 }
 
@@ -1473,6 +1504,19 @@ body,
 .video-play-button.relative i {
 	line-height: 70px;
 	font-size: 25px;
+}
+
+/* ============================================================== 
+     # Details 
+=================================================================== */
+
+.details .site-heading {
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+
+.details p {
+	text-align: center;
 }
 
 /* ============================================================== 
@@ -2501,6 +2545,10 @@ body,
 	margin-right: -30px;
 }
 
+.default-services-area .services-items p {
+	text-align: justify;
+}
+
 /* ============================================================== 
      # Partner  
 =================================================================== */
@@ -2549,17 +2597,6 @@ body,
 	margin-bottom: 10px !important;
 }
 
-.partner-area::after {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	content: "";
-	height: 120px;
-	width: 100%;
-	background-color: #ffffff;
-	z-index: -1;
-}
-
 .partner-area.bg-gray::after {
 	background: #ffffff;
 }
@@ -2582,6 +2619,7 @@ body,
 }
 
 .partner-area .info p {
+	text-align: justify;
 	margin-bottom: -5px;
 }
 
@@ -3209,7 +3247,7 @@ body,
 }
 
 .expertise-content h4 {
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 0px;
 	width: fit-content;
 	text-align: center;
@@ -5746,36 +5784,6 @@ footer .footer-bottom li a svg:hover {
 	border: 2px solid #002B8B;
 }
 
-.banner-style-six .content h2 {
-	font-size: 60px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
-.banner-style-six .content a {
-	margin-top: 15px;
-}
-
-.banner-style-six .content p {
-	color: #232323;
-	font-weight: 400;
-}
-
-.banner-style-six .carousel-control i {
-	font-weight: 100;
-	font-size: 30px;
-	position: relative;
-	top: 5px;
-	color: #232323;
-}
-
-.banner-style-six .content h2 strong {
-	font-weight: 600;
-	display: inline-block;
-	position: relative;
-	z-index: 2;
-}
-
 
 .navbar .attr-nav .call i.fa-user-headset {
 	font-weight: 100;
@@ -6378,6 +6386,8 @@ footer .footer-bottom li a svg:hover {
 .about-area .accordion .card .card-header {
 	margin: 0px;
 	padding: 0px;
+	background-color: transparent;
+	border: none;
 }
 
 .about-area .accordion .card .card-body {
@@ -6394,6 +6404,7 @@ footer .footer-bottom li a svg:hover {
 	position: relative;
 	font-size: 18px;
 	padding: 12px 0px 12px 44px;
+	background-color: transparent;
 }
 
 .about-area .accordion .card .card-header h4::after {
