@@ -745,7 +745,7 @@
   }
 
 }
-
+ 
 /* Min 992px custom layout. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
@@ -798,6 +798,17 @@
 
 /* Max width layout. */
 @media only screen and (max-width: 400px) {
+
+  .banner-hero-text {
+    justify-content: center;
+    align-items: center !important;
+    padding: 15px;
+  }
+
+  .banner-overlay {
+    backdrop-filter: blur(10px);
+  }
+
   .features-area .single-item .item {
     text-align: center;
   }
