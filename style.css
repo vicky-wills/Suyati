@@ -1949,6 +1949,7 @@ body,
 
 .work-process-items .row .single-item .item {
 	background-color: #ffffff;
+	height: 100%;
 }
 
 .features-area .features-content .top {
@@ -2587,7 +2588,7 @@ body,
 .partner-area .item-box .partners-logo img {
 	width: auto;
 	margin: auto;
-	backdrop-filter: blur(10 px);
+	backdrop-filter: blur(10px);
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
