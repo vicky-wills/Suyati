@@ -1941,7 +1941,7 @@ body,
 	background-repeat: no-repeat;
 }
 
-.work-process-items{
+.work-process-items {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
@@ -3271,7 +3271,7 @@ body,
 	height: 100%;
 	width: 100%;
 	border-radius: 0 0 8px 8px;
-	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 130%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%) repeat scroll 0 0;
 }
 
 .expertise-content h4 {
@@ -3328,6 +3328,17 @@ body,
 	opacity: 1;
 	left: 50%;
 	transform: translateX(-50%) translateY(0px) scale(1);
+}
+
+.expertise-area .expertise-content::after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: "";
+	height: 100%;
+	width: 100%;
+	border-radius: 0 0 8px 8px;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%) repeat scroll 0 0;
 }
 
 .expertise-content .expertise-CTA a:hover {
@@ -3419,22 +3430,31 @@ body,
      # Faq Area 
 =================================================================== */
 
-.faq-area .faq-items .fixed-thumb {
+.faq-area {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(90deg, rgba(237, 245, 255, 1) 0%, rgba(204, 223, 247, 1) 100%);
+}
+
+.faq-area::after {
 	position: absolute;
-	left: -195px;
-	bottom: 0;
-	width: 350px;
+	left: 0;
+	top: 0;
+	content: "";
+	height: 120px;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: -1;
 }
 
 .faq-area .faq-items {
 	position: relative;
 	z-index: 1;
-	padding-left: 50px;
-}
-
-.faq-area .faq-items .faq-content {
-	padding: 120px 0;
-	z-index: 9;
+	max-width: 1200px;
+	background: var(--primary);
+	width: 100%;
 }
 
 .faq-area .faq-items::after {
@@ -3448,30 +3468,29 @@ body,
 	z-index: -1;
 }
 
+.faq-area .faq-items .fixed-thumb {
+	position: absolute;
+	left: -195px;
+	bottom: 0;
+	width: 350px;
+	z-index: 2;
+}
+
 .faq-area .faq-items .icon i {
 	position: absolute;
-	right: -170px;
+	right: -14%;
 	top: 50%;
 	font-size: 300px;
 	opacity: 0.1;
 	transform: translateY(-50%);
 }
 
-.faq-area {
-	position: relative;
-	z-index: 1;
+.faq-area .faq-items .faq-content {
+	margin-left: 13%;
+	padding: 120px 24px;
 }
 
-.faq-area::after {
-	position: absolute;
-	left: 0;
-	top: 0;
-	content: "";
-	height: 120px;
-	width: 100%;
-	background-color: #ffffff;
-	z-index: -1;
-}
+/*  */
 
 .faq-area .faq-content h2 {
 	font-weight: 600;
