@@ -1877,6 +1877,6 @@
 /* Min width layout. */
 @media only screen and (min-width: 1200px) {
   .blog-area .blog-items .info {
-    height: 303px;
+    height: 328px;
   }
 }
