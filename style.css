@@ -1933,6 +1933,24 @@ body,
 /* ============================================================== 
      # Features  
 =================================================================== */
+
+.work-process-area .container:nth-child(2) {
+	background-image: url(assets/img/shape/circle.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.work-process-items{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.work-process-items .row .single-item .item {
+	background-color: #ffffff;
+}
+
 .features-area .features-content .top {
 	display: flex;
 	align-items: center;
@@ -2031,7 +2049,7 @@ body,
 }
 
 .features-area .single-item .item {
-	padding: 60px 30px;
+	padding: 30px;
 	transition: all 0.35s ease-in-out;
 	overflow: hidden;
 	position: relative;
@@ -2569,7 +2587,7 @@ body,
 .partner-area .item-box .partners-logo img {
 	width: auto;
 	margin: auto;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(10 px);
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.10);
 }
 
