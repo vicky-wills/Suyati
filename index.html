@@ -20,6 +20,11 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     <!-- ========== End lottie ========== -->
 
+    <!-- ========== Start Scrolling js ========== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>ScrollReveal({ reset: true });</script>
+    <!-- ========== End Scrolling js ========== -->
+
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -93,11 +98,11 @@
     <header>
         <div class="header">
             <div class="header-logo">
-                <hr>
+                <hr class="left">
                 <a href="#">
                     <img src="assets/img/suyati-white-135x50.png" alt="">
                 </a>
-                <hr>
+                <hr class="right">
             </div>
         </div>
     </header>
@@ -117,17 +122,17 @@
             <div class="banner-text">
                 <h2>Cleared bottleneck in student acquisition with strategic <span>Salesforce solutions</span></h2>
                 <div class="banner-details">
-                    <p>
+                    <p class="hero-text-1">
                         <span><img src="assets/img/icon/Bar.png" alt="icon"></span>
-                        Enhanced middle-funnel strategy with lead scoring.
+                        <span>Enhanced middle-funnel strategy with lead scoring.</span>
                     </p>
-                    <p>
+                    <p class="hero-text-2">
                         <span><img src="assets/img/icon/crm.png" alt="icon"></span>
-                        One third time saved time in the application process with CRM automation.
+                        <span>One third time saved time in the application process with CRM automation.</span>
                     </p>
-                    <p>
+                    <p class="hero-text-3">
                         <span><img src="assets/img/icon/cloud.png" alt="icon"></span>
-                        Closed marketing loops by integrating with Community Cloud.
+                        <span>Closed marketing loops by integrating with Community Cloud.</span>
                     </p>
                 </div>
             </div>
@@ -554,7 +559,7 @@
         <div class="container">
             <div class="work-process-items features-content">
 
-                <div class="row">
+                <div class="row top-animate">
 
                     <div class="single-item col-lg-4 col-md-6">
                         <div class="item">
@@ -609,7 +614,7 @@
 
                 </div>
 
-                <div class="row">
+                <div class="row bottom-animate">
 
                     <div class="single-item show col-lg-4 col-md-6">
                         <div class="item">
@@ -1202,14 +1207,6 @@
     </div>
     <!-- End Blog Area -->
 
-    <!--<div class="xyz bg-gray">
-
-        <lottie-player id="location" src="assets/img/lottie/car.json" style="width:500px; height: 500px;" loop autoplay
-            background="transparent">
-        </lottie-player>
-
-    </div> -->
-
     <!-- <section class="bg-gray default-padding icon-sample">
         <i class="flaticon-target-1 icon-s"></i>
         <i class="flaticon-target icon-s"></i>
@@ -1293,9 +1290,11 @@
                 <div>
                     <img src="assets/img/suyati-white-135x50.png" alt="Logo">
                 </div>
-                <p>
-                    <span>Connect with us</span> today to learn more about how we can be of help for your company.
-                </p>
+                <div>
+                    <p>
+                        <span>Connect with us</span> today to learn more about how we can be of help for your company.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -1426,6 +1425,8 @@
             </div>
         </div>
     </footer>
+    <!-- End Footer -->
+
     <!-- jQuery Frameworks
     ============================================= -->
 
@@ -1445,6 +1446,7 @@
     <script src="assets/js/YTPlayer.min.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/Scroll-reveal.js"></script>
 
 </body>
 

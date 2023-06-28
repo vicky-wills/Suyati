@@ -2072,7 +2072,7 @@ body,
 .faq-area .faq-items {
 	position: relative;
 	z-index: 1;
-	max-width: 1200px;
+	max-width: 1170px;
 	background: var(--primary);
 	width: 100%;
 }
@@ -3350,20 +3350,10 @@ footer .footer-bottom li a svg:hover {
 	line-height: 32px;
 }
 
+
+/* *************************************************** */
+
 .icon-sample i {
 	height: 90px;
 	width: 90px;
-}
-
-.xyz {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 80vh !important;
-	overflow: hidden;
-
-	background-image: url(assets/img/2440x1578-2.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
