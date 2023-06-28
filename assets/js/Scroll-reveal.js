@@ -17,26 +17,26 @@ ScrollReveal().reveal('.hero-text-3 span', { distance: '200px', duration: 600, o
 
 
 //Headings//
-ScrollReveal().reveal('.site-heading h4', { distance: '50px', duration: 400, origin: 'top', delay: 20, opacity: 0, easing: 'ease-out' });
-ScrollReveal().reveal('.site-heading h2', { distance: '50px', duration: 400, origin: 'bottom', delay: 20, opacity: 0, easing: 'ease-out' });
+ScrollReveal().reveal('.site-heading h4', { distance: '50px', duration: 400, origin: 'top', delay: 20, opacity: 0, easing: 'ease-out', reset: false });
+ScrollReveal().reveal('.site-heading h2', { distance: '50px', duration: 400, origin: 'bottom', delay: 20, opacity: 0, easing: 'ease-out', reset: false });
 
 
 //Our Services//
-ScrollReveal().reveal('.work-process-items .top-animate .single-item', { distance: '50px', duration: 400, origin: 'bottom', delay: 100, interval: 100, opacity: 0, easing: 'ease-out' });
-ScrollReveal().reveal('.work-process-items .bottom-animate .single-item', { distance: '50px', duration: 400, origin: 'bottom', delay: 200, interval: 100, opacity: 0, easing: 'ease-out' });
+ScrollReveal().reveal('.work-process-items .top-animate .single-item', { distance: '50px', duration: 400, origin: 'bottom', delay: 100, interval: 100, opacity: 0, easing: 'ease-out', reset: false });
+ScrollReveal().reveal('.work-process-items .bottom-animate .single-item', { distance: '50px', duration: 400, origin: 'bottom', delay: 200, interval: 100, opacity: 0, easing: 'ease-out', reset: false });
 
 
 //About//
-ScrollReveal().reveal('.about-area .container .accordion .card', { distance: '50px', duration: 400, origin: 'right', delay: 50, interval: 50, easing: 'ease-out' });
+ScrollReveal().reveal('.about-area .container .accordion .card', { distance: '50px', duration: 400, origin: 'right', delay: 50, interval: 50, easing: 'ease-out', reset: false });
 
 
 //FAQ//
-ScrollReveal().reveal('.faq-area .faq-content .accordion .card', { distance: '50px', duration: 400, origin: 'right', delay: 50, interval: 50, easing: 'ease-out' });
+ScrollReveal().reveal('.faq-area .faq-content .accordion .card', { distance: '50px', duration: 400, origin: 'right', delay: 50, interval: 50, easing: 'ease-out', reset: false });
 
 
 //Footer//
-ScrollReveal().reveal('footer .footer-top-container .footer-top div', { distance: '100px', duration: 400, origin: 'top', delay: 0, interval: 50, easing: 'ease-out' });
-ScrollReveal().reveal('footer .footer-contact-container .foo-address', { distance: '100px', duration: 400, origin: 'right', delay: 100, interval: 100, easing: 'ease-out' });
+ScrollReveal().reveal('footer .footer-top-container .footer-top div', { distance: '100px', duration: 400, origin: 'top', delay: 0, interval: 50, easing: 'ease-out', reset: false });
+ScrollReveal().reveal('footer .footer-contact-container .foo-address', { distance: '100px', duration: 400, origin: 'right', delay: 100, interval: 100, easing: 'ease-out', reset: false });
 
 
 
