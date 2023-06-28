@@ -449,11 +449,11 @@
      ===============================================*/
     function loader() {
         $(window).on('load', function () {
-            $('#earna-preloader').addClass('loaded');
+            $('#preloader').addClass('loaded');
             $("#loading").fadeOut(500);
             // Una vez haya terminado el preloader aparezca el scroll
 
-            if ($('#earna-preloader').hasClass('loaded')) {
+            if ($('#preloader').hasClass('loaded')) {
                 // Es para que una vez que se haya ido el preloader se elimine toda la seccion preloader
                 $('#preloader').delay(900).queue(function () {
                     $(this).remove();
