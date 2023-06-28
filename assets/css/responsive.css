@@ -900,7 +900,7 @@
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 50.52%, rgba(0, 0, 0, 0.00) 100%);
   }
 
-  .banner-text .banner-details p span {
+  .banner-text .banner-details p span:first-child {
     display: none;
   }
 

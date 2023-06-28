@@ -15,14 +15,12 @@
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <!-- ========== End Favicon Icon ========== -->
 
-    <!-- ========== Start lottie ========== -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
-    <!-- ========== End lottie ========== -->
-
     <!-- ========== Start Scrolling js ========== -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script>ScrollReveal({ reset: true });</script>
+    <script>
+        ScrollReveal({ cleanup: true });
+        ScrollReveal({ mobile: false });
+    </script>
     <!-- ========== End Scrolling js ========== -->
 
     <!-- ========== Start Stylesheet ========== -->
@@ -46,7 +44,6 @@
 
     <!-- Start Preloader 
     ============================================= -->
-
     <div id="preloader">
         <div id="preloader" class="preloader">
             <div class="animation-preloader">
@@ -90,7 +87,6 @@
             </div>
         </div>
     </div>
-
     <!-- End Preloader -->
 
     <!-- Header 
@@ -166,7 +162,7 @@
 
     <!-- Star About Area
     ============================================= -->
-    <div id="about" class="about-area bg-dark overflow-hidden text-light relative">
+    <div class="about-area bg-dark overflow-hidden text-light relative" id="about">
         <!-- Fixed Shape -->
         <div class="fixed-shape" style="background-image: url(assets/img/shape/8.png);"></div>
         <!-- End Fixed Shape -->
@@ -1446,6 +1442,7 @@
     <script src="assets/js/YTPlayer.min.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
+
     <script src="assets/js/Scroll-reveal.js"></script>
 
 </body>

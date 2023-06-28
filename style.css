@@ -785,6 +785,7 @@ body,
 	gap: 24px;
 	width: 50%;
 	height: max-content !important;
+	overflow: hidden;
 }
 
 .banner-hero-text .banner-text h2 {
@@ -836,7 +837,7 @@ body,
 	z-index: 1;
 	width: 100%;
 	height: 100vh;
-	background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), rgba(0, 0, 0, 0.4);
+	background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), rgba(0, 0, 0, 0.5);
 }
 
 /* ============================================================== 
@@ -1336,6 +1337,10 @@ body,
 
 .partner-area h2 {
 	margin-bottom: 15px;
+}
+
+.partner-area .item-box .partners-logo .single-item {
+	border-radius: 8px;
 }
 
 .partner-area .item-box .partners-logo img {
@@ -1920,16 +1925,14 @@ body,
 
 .expertise-CTA {
 	position: absolute;
-	left: 50%;
-	transform: translateX(-50%) translateY(100px) scale(.9);
-	bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	z-index: 2;
-	height: max-content;
 	width: max-content;
 	opacity: 0;
+	bottom: -80px;
+	transform: scale(0.8);
 	transition: all 500ms ease-in-out;
 }
 
@@ -1947,8 +1950,8 @@ body,
 
 .expertise-content:hover .expertise-CTA {
 	opacity: 1;
-	left: 50%;
-	transform: translateX(-50%) translateY(0px) scale(1);
+	bottom: 20px;
+	transform: scale(1);
 }
 
 .expertise-area .expertise-content::after {
@@ -1975,76 +1978,6 @@ body,
 .expertise-content:hover .expertise-item .item:last-child {
 	border: none;
 }
-
-/* ============================================================== 
-     # Faq
-=================================================================== */
-
-.faq-content-area .faq-content {
-	margin-top: -25px;
-}
-
-.faq-content-area .thumb {
-	padding-left: 35px;
-}
-
-.faq-content-area .accordion .card-header h4:after {
-	font-family: "Font Awesome 5 Pro";
-	content: "\f068";
-	position: absolute;
-	right: 0;
-	left: auto;
-	top: 22px;
-	font-weight: 600;
-}
-
-.faq-content-area .accordion .card-header h4.collapsed:after {
-	content: "\f067";
-	font-weight: 600;
-	font-size: 14px;
-	color: #232323;
-}
-
-.faq-content-area .faq-content .card {
-	border: none;
-	overflow: inherit;
-	background: #ffffff;
-	border-radius: inherit;
-	border-bottom: 1px solid #e7e7e7;
-}
-
-.faq-content-area .faq-content .card:last-child {
-	margin-bottom: 0;
-}
-
-.faq-content-area .faq-content .card .card-header {
-	border: none;
-	background: transparent;
-	padding: 0;
-}
-
-.faq-content-area .faq-content .card .card-header h4 {
-	margin: 0;
-	font-size: 18px;
-	font-weight: 600;
-	padding: 25px;
-	padding-right: 50px;
-	padding-left: 0;
-	cursor: pointer;
-}
-
-.faq-content-area .faq-content .card .card-body {
-	padding-left: 0;
-	padding-top: 0;
-	margin-bottom: 5px;
-	padding-right: 50px;
-}
-
-.faq-content-area .ask-question a {
-	color: var(--primary);
-	text-decoration: underline;
-}
-
 
 /* ============================================================== 
      # Faq Area 
@@ -2108,6 +2041,7 @@ body,
 .faq-area .faq-items .faq-content {
 	margin-left: 13%;
 	padding: 100px 24px;
+	overflow: hidden;
 }
 
 /*  */
@@ -2960,6 +2894,7 @@ footer .footer-top span {
 	gap: 36px;
 	padding: 0px 24px 80px;
 	width: 100%;
+	overflow: hidden;
 }
 
 .footer-contact {
@@ -3307,6 +3242,7 @@ footer .footer-bottom li a svg:hover {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
+	overflow: hidden;
 }
 
 .about-area .accordion .card {
