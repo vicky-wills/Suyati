@@ -4,9 +4,10 @@
 
 
 :root {
-	/* --primary: #eb1212; */
 	--primary: #1273eb;
+	--primary-variant: #1862d9;
 	--secondary: #f9b52e;
+	--secondary-variant: #f79427;
 	--white: #ffffff;
 }
 
@@ -23,7 +24,7 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 28px;
@@ -47,7 +48,7 @@ h6 {
 	color: #232323;
 	font-weight: normal;
 	line-height: 1.2;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
 	letter-spacing: 0;
 	margin: 0;
 }
@@ -838,8 +839,8 @@ body,
 	width: 100%;
 	height: 100vh;
 	background: radial-gradient(50.52% 46.68% at 30.42% 44.17%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%),
-				linear-gradient(270deg, rgba(0, 0, 0, 0.40) 52.49%, rgba(0, 0, 0, 0.00) 66.37%),
-				linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.00) 32.79%);
+		linear-gradient(270deg, rgba(0, 0, 0, 0.40) 52.49%, rgba(0, 0, 0, 0.00) 66.37%),
+		linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.00) 32.79%);
 }
 
 /* ============================================================== 
@@ -1176,13 +1177,8 @@ body,
 }
 
 .features-area .features-content .top span {
-	font-family: 'Poppins', sans-serif;
-	font-size: 40px;
-	font-weight: 800;
 	position: relative;
 	padding-right: 65px;
-	color: var(--primary);
-	text-shadow: -5px 5px 0px #eceefe;
 }
 
 .features-area .features-content .top span::after {
@@ -1193,6 +1189,43 @@ body,
 	height: 1px;
 	width: 35px;
 	background: #cccccc;
+}
+
+.features-area .features-content .top span svg {
+	width: 40px;
+	height: 40px;
+	color: var(--primary);
+	filter: drop-shadow(-5px 5px 0px #eceefe);
+	transition: ease-in 600ms;
+}
+
+.features-area .features-content .item:hover svg {
+	color: var(--primary-variant);
+	animation-name: wiggle;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
+
+@keyframes wiggle {
+	0% {
+		transform: translate(0, 0) rotate(0deg);
+	}
+
+	25% {
+		transform: translate(2px, 2px) rotate(2deg);
+	}
+
+	50% {
+		transform: translate(0, 0) rotate(0eg);
+	}
+
+	75% {
+		transform: translate(-2px, 2px) rotate(-2deg);
+	}
+
+	100% {
+		transform: translate(0, 0) rotate(0deg);
+	}
 }
 
 .features-area .item a {
@@ -3291,7 +3324,22 @@ footer .footer-bottom li a svg:hover {
 
 /* *************************************************** */
 
+.icon-sample {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	height: max-content;
+}
+
 .icon-sample i {
-	height: 90px;
-	width: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100px;
+	font-size: 80px;
+	background-color: #ffffff;
 }
