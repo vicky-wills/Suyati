@@ -1844,6 +1844,7 @@ body,
 }
 
 .skill-items .progress-box .progress {
+	position: relative;
 	background: transparent;
 	border-bottom: 2px solid #e7e7e7;
 	box-shadow: inherit;
@@ -1860,10 +1861,10 @@ body,
 	overflow: inherit;
 }
 
-.skill-items .progress-box .progress .progress-bar span {
+.skill-items .progress-box .progress span {
 	position: absolute;
 	right: 0;
-	top: -40px;
+	top: -28px;
 	display: block;
 	font-size: 15px;
 	color: #232323;
@@ -1873,7 +1874,7 @@ body,
 	text-align: center;
 }
 
-.skill-items .progress-box .progress .progress-bar::after {
+/* .skill-items .progress-box .progress .progress-bar::after {
 	position: absolute;
 	right: 13px;
 	top: -25px;
@@ -1882,7 +1883,7 @@ body,
 	font-weight: 600;
 	color: var(--primary);
 	font-size: 20px;
-}
+} */
 
 /******************/
 

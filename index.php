@@ -2,10 +2,10 @@
 <html lang="en">
 <?php
 
-define('WP_USE_THEMES', false);
+/*define('WP_USE_THEMES', false);
 
  require_once( $_SERVER[ 'DOCUMENT_ROOT' ] . '/suyati/wp-load.php' ); 
- require_once( $_SERVER[ 'DOCUMENT_ROOT' ] . '/suyati/wp-blog-header.php');
+ require_once( $_SERVER[ 'DOCUMENT_ROOT' ] . '/suyati/wp-blog-header.php');*/
 
 ?>
 
@@ -17,7 +17,7 @@ define('WP_USE_THEMES', false);
     <meta name="description" content="Cultural Vistas">
 
     <!-- ========== Page Title ========== -->
-    <title>Suyati Salesforce Services</title>
+    <title>CSuyati Salesforce Services</title>
 
     <!-- ========== Start Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -30,6 +30,12 @@ define('WP_USE_THEMES', false);
         ScrollReveal({ mobile: false });
     </script>
     <!-- ========== End Scrolling js ========== -->
+
+    <style type="text/css">
+    .screen-reader-response ul{display: none;}
+</style>
+
+  <?php //wp_head(); ?>
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -1165,9 +1171,9 @@ define('WP_USE_THEMES', false);
             </div>
             <h2>Let us discuss your project</h2>
 
-            <?php echo do_shortcode('[contact-form-7 id="46190" title="Untitled"]'); ?>
+            <?php //echo do_shortcode('[contact-form-7 id="46190" title="Untitled"]'); ?>
 
-            <!-- <form action="">
+            <form action="">
                 <div class="contact-body">
                     <div class="contact-row top">
                         <input type="text" required placeholder="Name*">
@@ -1180,7 +1186,7 @@ define('WP_USE_THEMES', false);
                     </div>
                 </div>
                 <button class="btn btn-light effect btn-md" href="#">Contact us</button>
-            </form> -->
+            </form>
 
 
         </div>
@@ -1354,7 +1360,7 @@ define('WP_USE_THEMES', false);
     <script src="assets/js/Scroll-reveal.js"></script>
 
 
-    <?php wp_footer(); ?>
+    <?php //wp_footer(); ?>
 </body>
 
 </html>
