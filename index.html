@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+
+define('WP_USE_THEMES', false);
+
+ require_once( $_SERVER[ 'DOCUMENT_ROOT' ] . '/suyati/wp-load.php' ); 
+ require_once( $_SERVER[ 'DOCUMENT_ROOT' ] . '/suyati/wp-blog-header.php');
+
+?>
 
 <head>
     <!-- ========== Meta Tags ========== -->
@@ -1156,7 +1164,50 @@
                 <span></span>
             </div>
             <h2>Let us discuss your project</h2>
-            <form action="">
+
+            <?php echo do_shortcode('[contact-form-7 id="46190" title="Untitled"]'); ?>
+
+            <!-- <form action="https://suyati.com/email-landingpage/#wpcf7-f46190-o1" method="post" class="wpcf7-form init"
+                novalidate="novalidate" data-status="init">
+
+                <div class="contact-body">
+                    <div class="contact-row top">
+                        <span class="wpcf7-form-control-wrap" data-name="uname">
+                            <input type="text" name="uname" value="" size="40"
+                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                                aria-invalid="false" placeholder="Name*">
+                        </span>
+                        <br>
+                        <span class="wpcf7-form-control-wrap" data-name="email">
+                            <input type="email" name="email" value="" size="40"
+                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                aria-required="true" aria-invalid="false" placeholder="Email*">
+                        </span>
+                        <br>
+                        <span class="wpcf7-form-control-wrap" data-name="phone">
+                            <input type="tel" name="phone" value="" size="40"
+                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
+                                aria-invalid="false" placeholder="Phone">
+                        </span>
+                        <p></p>
+                    </div>
+                    <div class="contact-row bottom">
+                        <span class="wpcf7-form-control-wrap" data-name="about-project"><textarea name="about-project"
+                                cols="40" rows="10"
+                                class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                                aria-required="true" aria-invalid="false" placeholder="Tell Us About Project*"
+                                data-gramm="false" wt-ignore-input="true"></textarea></span>
+                        <p></p>
+                    </div>
+                </div>
+                <p>
+                    <input type="submit" value="Contact us"
+                        class="wpcf7-form-control has-spinner wpcf7-submit btn btn-light effect btn-md"><span
+                        class="wpcf7-spinner"></span></p>
+                <div class="wpcf7-response-output" aria-hidden="true"></div>
+            </form> -->
+
+            <!-- <form action="">
                 <div class="contact-body">
                     <div class="contact-row top">
                         <input type="text" required placeholder="Name*">
@@ -1169,7 +1220,9 @@
                     </div>
                 </div>
                 <button class="btn btn-light effect btn-md" href="#">Contact us</button>
-            </form>
+            </form> -->
+
+
         </div>
     </section>
     <!-- End contact Area -->
@@ -1340,6 +1393,8 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/Scroll-reveal.js"></script>
 
+
+    <?php wp_footer(); ?>
 </body>
 
 </html>
