@@ -2254,7 +2254,6 @@ body,
 .blog-arrow {
 	position: absolute;
 	background-color: rgba(255, 255, 255, 0.87);
-	/* transition: all 500ms; */
 	transition: all 0.35s ease-in-out;
 }
 
@@ -2279,13 +2278,11 @@ body,
 	background-color: rgba(0, 0, 0, 0.20);
 	opacity: 0;
 	z-index: 2;
-	/* transition: all 500ms; */
 	transition: all 0.35s ease-in-out;
 }
 
 .blog-area .blog-items .thumb .blog-img img {
 	border-radius: 8px;
-	/* transition: all 500ms; */
 	transition: all 0.35s ease-in-out;
 }
 
