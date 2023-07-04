@@ -1627,6 +1627,11 @@ body,
 	color: #ffffff;
 }
 
+.team-area .team-items .social a i .fa-mail-bulk {
+	color: #ffffff !important;
+	opacity: 1 !important;
+}
+
 .team-area .team-items .social a.facebook {
 	background: #3B5998 none repeat scroll 0 0;
 }
@@ -1649,6 +1654,10 @@ body,
 
 .team-area .team-items .social a.instagram {
 	background: #3f729b none repeat scroll 0 0;
+}
+
+.team-area .team-items .social a.outlook {
+	background: #28A7EA none repeat scroll 0 0;
 }
 
 /* ============================================================== 
