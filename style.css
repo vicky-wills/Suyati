@@ -1627,11 +1627,6 @@ body,
 	color: #ffffff;
 }
 
-.team-area .team-items .social a i .fa-mail-bulk {
-	color: #ffffff !important;
-	opacity: 1 !important;
-}
-
 .team-area .team-items .social a.facebook {
 	background: #3B5998 none repeat scroll 0 0;
 }
