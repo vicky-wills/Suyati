@@ -762,6 +762,10 @@ body,
 	background-repeat: no-repeat;
 }
 
+.banner-area {
+	overflow: hidden;
+}
+
 .banner-area.auto-height,
 .banner-area.auto-height div {
 	height: auto;
