@@ -274,7 +274,7 @@
                             </div>
                         </div>
 
-                        <a class="btn btn-light effect btn-md" href="#">Take control of your student registrations! </a>
+                        <a class="btn btn-light effect btn-md" href="#contact">Take control of your student registrations! </a>
                     </div>
 
                 </div>
@@ -1055,7 +1055,7 @@
 
     <!-- Start Contact 
     ============================================= -->
-    <section class="contact-card-container default-padding">
+    <section class="contact-card-container default-padding" id="contact">
         <div class="contact-card" style="background-image: url(assets/img/shape/card-lines.png);">
             <div class="contact-card-title">
                 <span></span>
