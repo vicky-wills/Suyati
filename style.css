@@ -1142,6 +1142,69 @@ body,
 	margin-top: 40px;
 }
 
+/* About */
+
+.shape-left-top {
+	position: absolute;
+	left: 0;
+	top: -80px;
+	max-width: 15%;
+}
+
+.about-area .row h4 {
+	margin-bottom: 15px;
+}
+
+.about-area .accordion {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	overflow: hidden;
+}
+
+.about-area .accordion .card {
+	background-color: transparent;
+	border: none;
+}
+
+.about-area .accordion .card .card-header {
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	border: none;
+}
+
+.about-area .accordion .card .card-header h4 {
+	position: relative;
+	font-size: 18px;
+	padding: 12px 0px 12px 44px;
+	background-color: transparent;
+}
+
+.about-area .accordion .card .card-header h4::after {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 32px;
+	height: 32px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 32px;
+}
+
+.about-area .accordion .card .card-body {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 44px;
+}
+
+.about-area .accordion .card .card-body p {
+	margin: 0px;
+	padding: 0px;
+}
+
+
 /* ============================================================== 
      # Features  
 =================================================================== */
@@ -2073,11 +2136,12 @@ body,
 	z-index: 2;
 }
 
-.faq-area .faq-items .icon i {
+.faq-area .faq-items .icon svg {
 	position: absolute;
 	right: -14%;
 	top: 50%;
-	font-size: 300px;
+	width: 300px;
+	height: 300px;
 	opacity: 0.1;
 	transform: translateY(-50%);
 }
@@ -2097,30 +2161,16 @@ body,
 }
 
 .accordion .card-header h4:after {
-	font-family: "Font Awesome 5 Pro";
-	content: "\f068";
 	position: absolute;
-	left: 0;
-	top: -2px;
-	font-weight: 600;
-	background: #ffffff;
-	color: var(--primary);
-	font-size: 12px;
-	height: 28px;
-	width: 28px;
-	text-align: center;
-	line-height: 28px;
-	border-radius: 50%;
+	content: url(assets/img/icon/minus.svg);
 }
 
 .accordion .card-header h4.collapsed:after {
-	content: "\f067";
-	font-weight: 600;
+	content: url(assets/img/icon/plus.svg);
 }
 
 .faq-area .faq-content .card {
 	border: none;
-	margin-bottom: 30px;
 	overflow: inherit;
 	background: transparent;
 	border-radius: 5px;
@@ -2137,57 +2187,44 @@ body,
 	padding: 0;
 }
 
-.faq-area .faq-content .card .card-header h4 {
-	margin: 0;
-	font-weight: 500;
-	padding: 0;
-	padding-left: 45px;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
+.faq-area .faq-content .accordion {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	gap: 12px;
+	overflow: hidden;
+}
+
+.faq-area .accordion .card .card-header h4 {
+	position: relative;
 	font-size: 18px;
+	padding: 12px 0px 12px 44px;
+	background-color: transparent;
+}
+
+.faq-area .accordion .card .card-header h4::after {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 32px;
+	height: 32px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 32px;
 }
 
 .faq-area .faq-content .card .card-body {
-	padding-left: 30px;
-	padding: 0;
-	padding-top: 15px;
+	padding: 0PX;
+	margin: 0px;
+	padding-left: 44px;
+}
+
+.faq-area .faq-content .card .card-body p {
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
-	margin-top: 20px;
+	padding-top: 12px;
+	margin-bottom: 0px;
 }
 
-.faq-area .faq-content .card .card-body p:last-child {
-	margin-bottom: 0;
-}
-
-.faq-area .faq-content .card .card-header h4 strong {
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	text-align: center;
-	line-height: 40px;
-	background: #1273eb;
-	color: #ffffff;
-	border-radius: 50%;
-	margin-right: 20px;
-	position: relative;
-	min-width: 40px;
-}
-
-.faq-area .faq-content .card .card-header h4 strong::after {
-	position: absolute;
-	left: -10%;
-	top: -10%;
-	content: "";
-	height: 120%;
-	width: 120%;
-	background: #1273eb;
-	z-index: -1;
-	border-radius: 50%;
-	opacity: 0.3;
-}
 
 /* ============================================================== 
      # Blog Area  
@@ -3267,88 +3304,4 @@ footer .footer-bottom li a svg:hover {
 	.preloader .animation-preloader .txt-loading {
 		font: bold 2em "Poppins", sans-serif;
 	}
-}
-
-/* About */
-
-.shape-left-top {
-	position: absolute;
-	left: 0;
-	top: -80px;
-	max-width: 15%;
-}
-
-.about-area .row h4 {
-	margin-bottom: 15px;
-}
-
-.about-area .accordion {
-	display: flex;
-	flex-direction: column;
-	gap: 12px;
-	overflow: hidden;
-}
-
-.about-area .accordion .card {
-	background-color: transparent;
-	border: none;
-}
-
-.about-area .accordion .card .card-header {
-	margin: 0px;
-	padding: 0px;
-	background-color: transparent;
-	border: none;
-}
-
-.about-area .accordion .card .card-body {
-	margin: 0px;
-	padding: 0px;
-}
-
-.about-area .accordion .card .card-body p {
-	margin-bottom: 0px;
-	margin-left: 44px;
-}
-
-.about-area .accordion .card .card-header h4 {
-	position: relative;
-	font-size: 18px;
-	padding: 12px 0px 12px 44px;
-	background-color: transparent;
-}
-
-.about-area .accordion .card .card-header h4::after {
-	position: absolute;
-	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 32px;
-	height: 32px;
-	font-size: 14px;
-	font-weight: 600;
-	line-height: 32px;
-}
-
-
-/* *************************************************** */
-
-.icon-sample {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-	width: 100%;
-	height: max-content;
-}
-
-.icon-sample i {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100px;
-	width: 100px;
-	font-size: 80px;
-	background-color: #ffffff;
 }
