@@ -97,7 +97,7 @@
         <div class="header">
             <div class="header-logo">
                 <hr class="left">
-                <a href="#">
+                <a href="https://suyati.com/email-landingpage/">
                     <img src="assets/img/suyati-white-135x50.png" alt="">
                 </a>
                 <hr class="right">
@@ -107,11 +107,6 @@
 
     <!-- Start Banner -->
     <div class="banner-area inc-video video-bg-live" style="background-image: url(assets/img/hero-2440x1578.jpg);">
-
-        <!-- <div class="player"
-            data-property="{videoURL:'yX1aEpdkNR0',containment:'.video-bg-live', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:0, opacity:1, quality:'high'}">
-        </div> -->
-
         <span class="banner-overlay"></span>
 
         <span class="banner-hero-text">
@@ -119,16 +114,16 @@
                 <h2>Cleared bottleneck in student acquisition with strategic <span>Salesforce solutions</span></h2>
                 <div class="banner-details">
                     <p class="hero-text-1">
-                        <span><img src="assets/img/icon/funnel.png" alt="icon"></span>
-                        <span>Enhanced middle-funnel strategy with lead scoring.</span>
+                        <span><img src="assets/img/icon/funnel.png" alt="icon" class="hero-icon-1"></span>
+                        <span>Enhanced middle-funnel strategy with lead scoring</span>
                     </p>
                     <p class="hero-text-2">
-                        <span><img src="assets/img/icon/time.png" alt="icon"></span>
-                        <span>One third time saved time in the application process with CRM automation.</span>
+                        <span><img src="assets/img/icon/time.png" alt="icon" class="hero-icon-2"></span>
+                        <span>One-third time saved in the application process with CRM automation</span>
                     </p>
                     <p class="hero-text-3">
-                        <span><img src="assets/img/icon/cloud.png" alt="icon"></span>
-                        <span>Closed marketing loops by integrating with Non-profit Cloud.</span>
+                        <span><img src="assets/img/icon/cloud.png" alt="icon" class="hero-icon-3"></span>
+                        <span>Closed marketing loops by integrating with Non-profit Cloud</span>
                     </p>
                 </div>
             </div>
@@ -149,8 +144,8 @@
                             A leading student exchange program provider with presence in more than 100 countries, was
                             witnessing a significant decrease in student enrolments. As students and professionals from
                             various countries were submitting their program applications, there was a noticeable rate of
-                            attrition or fluctuation occurring. This is when they approached us seeking assistance to
-                            overcome the crisis they were facing.
+                            attrition or fluctuation. This is when they approached us, seeking assistance to overcome
+                            the crisis they were facing.
                         </p>
                     </div>
                 </div>
@@ -165,15 +160,6 @@
             <div class="about-items">
                 <div class="row">
                     <div class="col-lg-6 thumb order-lg-last" style="background-image: url(assets/img/strategic-2440x1578.jpg);">
-                        <!-- <div class="success-rate">
-                            <div class="icon">
-                                <i class="flaticon-target"></i>
-                            </div>
-                            <div class="content">
-                                <h2>98%</h2>
-                                <span>Success Rate</span>
-                            </div>
-                        </div> -->
                     </div>
 
                     <div class="col-lg-6 info">
@@ -274,74 +260,14 @@
                             </div>
                         </div>
 
-                        <a class="btn btn-light effect btn-md" href="#contact">Take control of your student registrations! </a>
+                        <a class="btn btn-light effect btn-md" href="#contact">Take control of your student
+                            registrations! </a>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Start Expertise Area -->
-    <!-- <div id="features" class="expertise-area default-padding">
-        <div class="container">
-            <div class="item-heading">
-                <div class="row">
-                    <div class="col-lg-6 info">
-                        <h4>RESULT ACHIEVED</h4>
-                        <h2>Enhanced user experience & increased student retention rates</h2>
-                    </div>
-                    <div class="col-lg-6 right-info">
-                        <div class="skill-items">
-
-                            <div class="progress-box">
-                                <h5>automation of the application review process</h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="100">
-                                    </div>
-                                    <span>100%</span>
-                                </div>
-                            </div>
-                            <div class="progress-box">
-                                <h5>reduction in application processing time with CRM</h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="30">
-                                    </div>
-                                    <span>30%</span>
-                                </div>
-                            </div>
-                            <div class="progress-box">
-                                <h5>speed in lead student acquisition</h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="75">
-                                    </div>
-                                    <span>3X</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="expertise-content text-light" style="background-image: url(assets/img/Results-2440x1578.jpg);">
-                <div class="expertise-item">
-                    <div class="item">
-                        <h4>Doubled the applications processed in a day</h4>
-                    </div>
-                    <div class="item">
-                        <h4>Maximized middle-funnel strategy through lead scoring</h4>
-                    </div>
-                    <div class="item">
-                        <h4>20% reduction in total campaign costs</h4>
-                    </div>
-                </div>
-                <div class="expertise-CTA">
-                    <p>Experience this change in YOUR business as well!</p>
-                    <a href="#">Click now</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <!-- Star Partner Area -->
     <div class="partner-area overflow-hidden default-padding-top text-light">
@@ -441,10 +367,9 @@
                                 <h4>Consulting</h4>
                             </div>
                             <p>
-                                Get comprehensive understanding of CRM needs with end-to-end consultation services,
-                                devising scalable implementation strategies for your business growth.
+                                Get comprehensive understanding of CRM needs with end-to-end consultation services aimed
+                                at devising scalable implementation strategies for your business growth.
                             </p>
-                            <!-- <a href="#"><i class="arrow_right"></i></a> -->
                         </div>
                     </div>
 
@@ -476,10 +401,9 @@
                                 <h4>Customization</h4>
                             </div>
                             <p>
-                                Get scalable and Lightning-based business solutions to transform the way you interact
+                                Get scalable and lightning-based business solutions to transform the way you interact
                                 with your partners, employees, and customers.
                             </p>
-                            <!-- <a href="#"><i class="arrow_right"></i></a> -->
                         </div>
                     </div>
 
@@ -504,7 +428,6 @@
                                 Streamline your business processes with our suite of Salesforce implementation and
                                 customization services.
                             </p>
-                            <!-- <a href="#"><i class="arrow_right"></i></a> -->
                         </div>
                     </div>
 
@@ -530,7 +453,6 @@
                                 Integrate Salesforce into business to get a 360-degree view of your finances, marketing,
                                 sales, administration, and customer data on a single platform.
                             </p>
-                            <!-- <a href="#"><i class="arrow_right"></i></a> -->
                         </div>
                     </div>
 
@@ -551,10 +473,9 @@
                                 <h4>Migration</h4>
                             </div>
                             <p>
-                                Easy and Quick migration from CRMs, ERPs, Excel & database to Salesforce from legacy
+                                Easy and quick migration from CRMs, ERPs, Excel & database to Salesforce from legacy
                                 systems to ensure the safe transfer of your customer data.
                             </p>
-                            <!-- <a href="#"><i class="arrow_right"></i></a> -->
                         </div>
                     </div>
 
@@ -583,9 +504,8 @@
                             </div>
                             <p>
                                 Stay ahead of the competition with powerful standalone apps with unique mobile-ready
-                                tools and Lightning components that can push your business to the next level.
+                                tools and lightning components that can push your business to the next level.
                             </p>
-                            <!-- <a href="#"><i class="arrow_right"></i></a> -->
                         </div>
                     </div>
 
@@ -713,16 +633,14 @@
         <!-- Star testimonials Area
         ============================================= -->
         <div class="testimonials-area bg-gray default-padding bottom-less">
-            <!-- Fixed Shape -->
             <div class="fixed-shape" style="background-image: url(assets/img/shape/10-red.png);"></div>
-            <!-- End Fixed Shape -->
             <div class="container">
                 <div class="testimonial-items">
                     <div class="row align-center">
                         <div class="col-lg-7 testimonials-content">
                             <div class="testimonials-carousel owl-carousel owl-theme">
 
-                                <!-- Single Item -->
+
                                 <div class="item">
                                     <div class="info">
                                         <p>
@@ -746,9 +664,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Single Item -->
 
-                                <!-- Single Item -->
                                 <div class="item">
                                     <div class="info">
                                         <p>
@@ -770,17 +686,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Single Item -->
-
                             </div>
                         </div>
                         <div class="col-lg-5 info">
                             <h4>Testimonials</h4>
                             <h2>Our clients speak for us!</h2>
-                            <!-- <p>
-                                Why I say old chap that is, spiffing off his nut color blimey and guvnords geeza bloke
-                                knees up bobby sloshed arse
-                            </p> -->
                         </div>
                     </div>
                 </div>
@@ -844,12 +754,12 @@
                                 <div class="thumb">
                                     <img src="assets/img/people-2-800x900.png" alt="Thumb">
                                     <div class="social">
-                                        <a href="https://www.linkedin.com/in/mukundkrishna/?originalSubdomain=in" class="share-icon linkedin" target="_blank">
+                                        <a href="https://www.linkedin.com/in/ehsanulkarimbd/" class="share-icon linkedin" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                                 <path d="M3.35782 1.67975C3.3576 2.12502 3.1805 2.55197 2.86548 2.86667C2.55047 3.18137 2.12334 3.35804 1.67807 3.35782C1.2328 3.3576 0.805847 3.1805 0.491147 2.86548C0.176448 2.55047 -0.000222427 2.12334 2.10167e-07 1.67807C0.000222847 1.2328 0.177321 0.805847 0.492335 0.491148C0.807349 0.176448 1.23447 -0.000222427 1.67975 2.10167e-07C2.12502 0.000222847 2.55197 0.177321 2.86667 0.492335C3.18137 0.807349 3.35804 1.23447 3.35782 1.67975ZM3.40819 4.60105H0.0503674V15.111H3.40819V4.60105ZM8.71354 4.60105H5.37251V15.111H8.67996V9.5958C8.67996 6.5234 12.6842 6.23799 12.6842 9.5958V15.111H16V8.45415C16 3.27471 10.0735 3.46779 8.67996 6.01133L8.71354 4.60105Z" fill="white" />
                                             </svg>
                                         </a>
-                                        <a href="mailto:mkrishna@suyati.com" class="share-icon outlook" target="_blank">
+                                        <a href="mailto:ekarim@suyati.com" class="share-icon outlook" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
                                                 <path d="M16.2085 1.6C16.2085 0.72 15.4885 0 14.6085 0H1.8085C0.928496 0 0.208496 0.72 0.208496 1.6V11.2C0.208496 12.08 0.928496 12.8 1.8085 12.8H14.6085C15.4885 12.8 16.2085 12.08 16.2085 11.2V1.6ZM14.6085 1.6L8.2085 5.592L1.8085 1.6H14.6085ZM14.6085 11.2H1.8085V3.2L8.2085 7.2L14.6085 3.2V11.2Z" fill="white" />
                                             </svg>
@@ -877,12 +787,12 @@
                                 <div class="thumb">
                                     <img src="assets/img/people-3-800x900.png" alt="Thumb">
                                     <div class="social">
-                                        <a href="https://www.linkedin.com/in/mukundkrishna/?originalSubdomain=in" class="share-icon linkedin" target="_blank">
+                                        <a href="https://www.linkedin.com/in/abhisheksubbu/" class="share-icon linkedin" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                                 <path d="M3.35782 1.67975C3.3576 2.12502 3.1805 2.55197 2.86548 2.86667C2.55047 3.18137 2.12334 3.35804 1.67807 3.35782C1.2328 3.3576 0.805847 3.1805 0.491147 2.86548C0.176448 2.55047 -0.000222427 2.12334 2.10167e-07 1.67807C0.000222847 1.2328 0.177321 0.805847 0.492335 0.491148C0.807349 0.176448 1.23447 -0.000222427 1.67975 2.10167e-07C2.12502 0.000222847 2.55197 0.177321 2.86667 0.492335C3.18137 0.807349 3.35804 1.23447 3.35782 1.67975ZM3.40819 4.60105H0.0503674V15.111H3.40819V4.60105ZM8.71354 4.60105H5.37251V15.111H8.67996V9.5958C8.67996 6.5234 12.6842 6.23799 12.6842 9.5958V15.111H16V8.45415C16 3.27471 10.0735 3.46779 8.67996 6.01133L8.71354 4.60105Z" fill="white" />
                                             </svg>
                                         </a>
-                                        <a href="mailto:mkrishna@suyati.com" class="share-icon outlook" target="_blank">
+                                        <a href="mailto:asubramanian@suyati.com" class="share-icon outlook" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
                                                 <path d="M16.2085 1.6C16.2085 0.72 15.4885 0 14.6085 0H1.8085C0.928496 0 0.208496 0.72 0.208496 1.6V11.2C0.208496 12.08 0.928496 12.8 1.8085 12.8H14.6085C15.4885 12.8 16.2085 12.08 16.2085 11.2V1.6ZM14.6085 1.6L8.2085 5.592L1.8085 1.6H14.6085ZM14.6085 11.2H1.8085V3.2L8.2085 7.2L14.6085 3.2V11.2Z" fill="white" />
                                             </svg>
@@ -937,7 +847,7 @@
                                         <span class="blog-arrow vr"></span>
                                     </div>
                                     <span class="blog-overlay"></span>
-                                    <img src="assets/img/blog-1-800x600.jpg" alt="Thumb">
+                                    <img src="assets/img/blog/800x600-1.jpg" alt="Thumb">
                                 </div>
                                 <div class="date">March 16, 2023</div>
                             </div>
@@ -948,7 +858,7 @@
                                         <li>
                                             <img src="assets/img/suyati-100x100.png" alt="Author">
                                             <span>By </span>
-                                            <a href="#">Suyati</a>
+                                            <a href="https://suyati.com/">Suyati</a>
                                         </li>
                                         <!-- <li>
                                             <span>In </span>
@@ -957,11 +867,12 @@
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Salesforce Summer 23 Release Notes</a>
+                                    <a href="https://suyati.com/blog/salesforce-summer-23-release-notes/">Salesforce
+                                        Summer 23 Release Notes</a>
                                 </h4>
                                 <p>
                                     The long-awaited unveiling of the highly anticipated Salesforce Summer ’23 release
-                                    is here! Overflowing with a multitude of powerful features,...
+                                    is here! Overflowing with a multitude of powerful features...
                                 </p>
                             </div>
                         </div>
@@ -978,9 +889,9 @@
                                         <span class="blog-arrow vr"></span>
                                     </div>
                                     <span class="blog-overlay"></span>
-                                    <img src="assets/img/blog-2-800x600.jpg" alt="Thumb">
+                                    <img src="assets/img/blog/800x600-2.jpg" alt="Thumb">
                                 </div>
-                                <div class="date">March 18, 2023</div>
+                                <div class="date">July 11, 2023</div>
                             </div>
                             <div class="info">
                                 <div class="meta">
@@ -988,7 +899,7 @@
                                         <li>
                                             <img src="assets/img/suyati-100x100.png" alt="Author">
                                             <span>By </span>
-                                            <a href="#">Suyati</a>
+                                            <a href="https://suyati.com/">Suyati</a>
                                         </li>
                                         <!-- <li>
                                             <span>In </span>
@@ -997,12 +908,13 @@
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Optimizing Cloud Costs: Strategies for Managing Your Cloud
-                                        Infrastructure</a>
+                                    <a href="https://suyati.com/blog/10-tips-for-successful-salesforce-cpq-implementation/">10
+                                        tips to close deals quicker with Salesforce CPQ!
+                                    </a>
                                 </h4>
                                 <p>
-                                    Cloud cost optimization is the process of managing and reducing the costs associated
-                                    with cloud computing while maintaining or improving the quality of service.
+                                    In today’s fast-paced sales world, time is money. The faster you can generate
+                                    accurate quotes, the quicker you can close deals and drive your business forward.
                                 </p>
                             </div>
                         </div>
@@ -1019,9 +931,9 @@
                                         <span class="blog-arrow vr"></span>
                                     </div>
                                     <span class="blog-overlay"></span>
-                                    <img src="assets/img/blog-3-800x600.jpg" alt="Thumb">
+                                    <img src="assets/img/blog/800x600-3.jpg" alt="Thumb">
                                 </div>
-                                <div class="date">March 31, 2023</div>
+                                <div class="date">July 7, 2023</div>
                             </div>
                             <div class="info">
                                 <div class="meta">
@@ -1029,7 +941,7 @@
                                         <li>
                                             <img src="assets/img/suyati-100x100.png" alt="Author">
                                             <span>By </span>
-                                            <a href="#">Suyati</a>
+                                            <a href="https://suyati.com/">Suyati</a>
                                         </li>
                                         <!-- <li>
                                             <span>In </span>
@@ -1038,11 +950,11 @@
                                     </ul>
                                 </div>
                                 <h4>
-                                    <a href="#">Top 5 Questions on RPA Services You Always Wanted to Ask</a>
+                                    <a href="https://suyati.com/blog/top-10-salesforce-companies-usa/">Top 10 trusted
+                                        Salesforce companies in the USA, who can contribute to your business growth!</a>
                                 </h4>
                                 <p>
-                                    Robotic Process Automation (RPA) is a software technology that helps a business
-                                    create, build, and deploy software robots that emulate...
+                                    In today’s cutthroat global marketplace, standing out among competitors...
                                 </p>
                             </div>
                         </div>
