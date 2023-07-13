@@ -853,19 +853,19 @@ body,
 
 @keyframes horizontal-shaking {
 	0% {
-		transform: skewX(-20deg);
+		transform: skewX(-10deg);
 	}
 
 	5% {
-		transform: skewX(20deg);
+		transform: skewX(10deg);
 	}
 
 	10% {
-		transform: skewX(-20deg);
+		transform: skewX(-10deg);
 	}
 
 	15% {
-		transform: skewX(20deg);
+		transform: skewX(10deg);
 	}
 
 	20% {
