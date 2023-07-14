@@ -1043,7 +1043,7 @@
                 </div>
                 <div>
                     <p>
-                        <span>Connect with us</span> today to learn more about how we can be of help for your company.
+                        <span>Connect with us</span> today to learn more about how we can be of help to your company.
                     </p>
                 </div>
             </div>
