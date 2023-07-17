@@ -1021,7 +1021,7 @@
                     <div class="contact-row top">
                         <input type="text" name="name" value="<?php echo $name; ?>" required placeholder="Name*">
                         <input type="email" name="email" value="<?php echo $email; ?>" required placeholder="Email*">
-                        <input type="phone" name="phone" value="<?php echo $phone; ?>" placeholder="Phone">
+                        <input type="phone" name="phone" value="<?php echo $phone; ?>" required placeholder="Phone*">
                     </div>
                     <div class="contact-row bottom">
                         <textarea name="message" id="" cols="30" rows="10" required placeholder="Tell Us About Project*"><?php echo $message; ?></textarea>
