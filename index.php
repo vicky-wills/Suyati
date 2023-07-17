@@ -967,6 +967,31 @@
 
     <!-- Start Contact 
     ============================================= -->
+
+    <!-- <section class="contact-card-container default-padding" id="contact">
+        <div class="contact-card" style="background-image: url(assets/img/shape/card-lines.png);">
+            <div class="contact-card-title">
+                <span></span>
+                <h4>Get a quote</h4>
+                <span></span>
+            </div>
+            <h2>Let us discuss your project</h2>
+            <form action="">
+                <div class="contact-body">
+                    <div class="contact-row top">
+                        <input type="text" required placeholder="Name*">
+                        <input type="email" required placeholder="Email*">
+                        <input type="phone" required placeholder="Phone*">
+                    </div>
+                    <div class="contact-row bottom">
+                        <textarea name="" id="" cols="30" rows="10" required placeholder="Tell Us About Project*"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-light effect btn-md" href="#">Contact us</button>
+            </form>
+        </div>
+    </section> -->
+
     <section class="contact-card-container default-padding" id="contact">
         <div class="contact-card" style="background-image: url(assets/img/shape/card-lines.png);">
             <div class="contact-card-title">
