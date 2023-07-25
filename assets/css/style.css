@@ -2248,11 +2248,11 @@ body,
 
 .accordion .card-header h4:after {
 	position: absolute;
-	content: url(assets/img/icon/minus.svg);
+	content: url(../img/icon/minus.svg);
 }
 
 .accordion .card-header h4.collapsed:after {
-	content: url(assets/img/icon/plus.svg);
+	content: url(../img/icon/plus.svg);
 }
 
 .faq-area .faq-content .card {
@@ -2944,7 +2944,7 @@ textarea {
 	align-items: flex-start;
 	justify-content: flex-start;
 	flex: 1 0 0;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 500;
 	color: var(--white);
 	border-radius: 4px;
@@ -2979,12 +2979,49 @@ textarea {
 	width: calc(100%/3);
 }
 
-.contact-card form .contact-body .contact-row.bottom textarea {
+.contact-card form .contact-body .contact-row.center textarea {
 	min-height: 80px;
 	height: 100px;
 	max-height: 200px;
 	overflow: hidden;
 }
+
+.contact-card form .contact-body .contact-row.bottom {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+	align-items: center;
+}
+
+.contact-card form .contact-body .contact-row.bottom div {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+	align-items: center;
+}
+
+.contact-card form .contact-body .contact-row.bottom input[type='checkbox'] {
+	width: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.contact-card form .contact-body .contact-row.bottom p {
+	color: var(--white);
+	margin: 0px;
+}
+
+.contact-card form .contact-body .contact-row.bottom a {
+	margin: 0px;
+	color: var(--secondary);
+	transition: all 100ms ease-in-out;
+}
+
+.contact-card form .contact-body .contact-row.bottom a:hover {
+	color: var(--secondary-variant);
+}
+
 
 .contact-card-title {
 	display: flex;

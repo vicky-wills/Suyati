@@ -1048,8 +1048,16 @@
                         <input type="email" name="email" value="<?php echo $email; ?>" required placeholder="Email*">
                         <input type="phone" name="phone" value="<?php echo $phone; ?>" required placeholder="Phone*">
                     </div>
-                    <div class="contact-row bottom">
+                    <div class="contact-row center">
                         <textarea name="message" id="" cols="30" rows="10" required placeholder="Tell Us About Project*"><?php echo $message; ?></textarea>
+                    </div>
+                    <div class="contact-row bottom">
+                        <div>
+                            <input type="checkbox" name="policy-acceptance" value="1" aria-invalid="false"
+                                checked="checked">
+                            <p>I agree to the site</p>
+                        </div>
+                        <a href="https://suyati.com/about-us/privacy-policy">privacy policy</a>
                     </div>
                 </div>
                 <button type="submit" name="btn_inser" class="btn btn-light effect btn-md" href="#">Contact us</button>
