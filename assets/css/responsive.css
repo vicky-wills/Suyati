@@ -582,6 +582,10 @@
     margin-bottom: 25px;
   }
 
+  .contact-card form .contact-body .contact-row.bottom {
+    gap: 0px !important; 
+  }
+
 }
 
 @media only screen and (max-width: 500px) {

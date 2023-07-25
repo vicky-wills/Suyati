@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Cultural Vistas">
+    <meta name="description" content="Suyati, the top CRM & Salesforce consulting company in Chicago has been dedicated in providing the best Salesforce consulting services with unified data & analytics.">
+    <meta name="title" content="Salesforce Solutions and Consulting Company Chicago, USA">
 
     <!-- ========== Page Title ========== -->
     <title>Suyati Salesforce Services</title>
