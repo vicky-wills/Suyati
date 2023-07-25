@@ -2991,6 +2991,8 @@ textarea {
 	flex-direction: row;
 	gap: 4px;
 	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .contact-card form .contact-body .contact-row.bottom div {
@@ -3021,7 +3023,6 @@ textarea {
 .contact-card form .contact-body .contact-row.bottom a:hover {
 	color: var(--secondary-variant);
 }
-
 
 .contact-card-title {
 	display: flex;
