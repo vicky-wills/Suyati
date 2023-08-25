@@ -464,3 +464,15 @@
         loader();
 
     })(jQuery); // End jQuery
+
+    function ContactUsBtnCntrl(){
+        var result = document.getElementById("checkBoxFormCheck");
+        var disable = document.getElementById("contactUsId");
+        if(result.checked===false){
+            
+            disable.disabled=true;
+        }
+        else{
+            disable.disabled=false;
+        }
+    }
